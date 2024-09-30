@@ -1,6 +1,6 @@
-/* Modifier la couleur du header de gauche avec un vert approprié */
+/* Couleur du header de gauche */
 .wy-side-nav-search {
-    background-color: #0a6635; /* Vert pour le header */
+    background-color: #2c6d2d; /* Vert foncé */
 }
 
 .wy-side-nav-search .icon {
@@ -12,82 +12,88 @@
     color: #000000; /* Texte noir pour la barre de recherche */
 }
 
-/* Modifier la couleur du titre dans la sidebar */
+/* Couleur du titre dans la sidebar */
 .wy-side-nav-search h2 {
-    color: #ffffff; /* Texte blanc pour le titre */
+    color: #ffffff; /* Texte blanc */
 }
 
 /* Améliorer la lisibilité du texte sélectionné dans le menu */
 .wy-menu-vertical .current > a, .wy-menu-vertical a:hover {
-    background-color: #343a40; /* Couleur de fond pour l'élément sélectionné ou survolé */
-    color: #ffffff !important; /* Couleur du texte pour une meilleure lisibilité */
+    background-color: #2c6d2d; /* Fond vert pour le texte sélectionné */
+    color: #ffffff !important; /* Texte blanc */
 }
 
-/* Ajuster le style des sous-éléments du menu déroulant */
+/* Couleur des sous-menus déroulants */
 .wy-menu-vertical li a {
-    color: #ffffff; /* Assurer une couleur blanche du texte */
+    color: #ffffff; /* Texte blanc */
 }
 
 .wy-menu-vertical li.current > a {
-    background-color: #0a6635; /* Mettre une couleur plus prononcée pour l'élément actif */
+    background-color: #2c6d2d; /* Fond vert pour l'élément actif */
     color: #ffffff;
 }
 
 /* Supprimer la bande blanche sur la gauche */
 .wy-nav-side {
-    background-color: #2d2d2d; /* Assure un fond gris uniforme */
-    border-right: none; /* Supprimer toute bordure indésirable */
+    background-color: #343a40; /* Gris foncé pour un fond uniforme */
+    border-right: none; /* Supprimer la bordure */
 }
 
-/* Centrer le contenu et ajuster les marges */
+/* Centrer le contenu */
 .wy-nav-content {
-    margin-left: 0 !important; /* Supprimer la marge gauche qui crée la bande blanche */
-    padding-left: 20px; /* Ajouter un léger padding pour que le contenu ne soit pas collé à la gauche */
-    max-width: 900px; /* Limiter la largeur pour mieux centrer */
-    margin: 0 auto; /* Centre le contenu */
+    max-width: 900px; /* Largeur maximale plus petite pour un meilleur centrage */
+    margin: 0 auto; /* Centrer le contenu */
+    padding: 20px; /* Ajouter du padding autour pour aérer le contenu */
 }
 
-/* Améliorer le padding général pour mieux centrer */
-.wy-nav-content-wrap {
-    padding: 20px 40px; /* Padding à gauche et à droite */
-}
-
-/* Modifier la couleur du texte dans la documentation */
+/* Couleur du texte dans la documentation */
 h1, h2, h3, h4, h5, h6 {
-    color: #0a6635; /* Couleur verte pour les titres */
+    color: #2c6d2d; /* Titres en vert */
 }
 
 p, li, a {
-    color: #333333; /* Texte général en gris foncé pour une meilleure lisibilité */
+    color: #333333; /* Texte gris foncé pour une meilleure lisibilité */
 }
 
-/* Modifier les couleurs des boîtes d'alerte (e.g., "Note") */
+/* Boîte d'alerte */
 .admonition-title {
-    background-color: #0a6635; /* Fond vert pour les titres d'alerte */
+    background-color: #2c6d2d; /* Fond vert pour les alertes */
     color: white; /* Texte blanc */
 }
 
 .admonition {
-    border-left-color: #0a6635; /* Bordure verte */
+    border-left-color: #2c6d2d; /* Bordure verte */
 }
 
-/* Modifier la couleur du footer */
+/* Footer */
 .wy-footer {
-    background-color: #0a6635; /* Vert pour le footer */
-    color: #ffffff; /* Texte blanc dans le footer */
+    background-color: #2c6d2d; /* Fond vert pour le footer */
+    color: white; /* Texte blanc dans le footer */
 }
 
-/* Modifier la couleur du texte dans le footer */
+/* Texte blanc dans le footer */
 .wy-footer p, .wy-footer a {
-    color: #ffffff !important; /* Couleur blanche dans le footer */
+    color: white !important;
 }
 
-/* Ajuster la lisibilité du texte dans le menu */
+/* Ajustement du padding général */
+.wy-nav-content-wrap {
+    padding: 30px 40px;
+}
+
+/* Couleur des sous-éléments de menu */
 .wy-menu-vertical .toctree-l2 {
-    color: #ffffff; /* Texte des sous-menus en blanc */
+    color: white; /* Texte des sous-menus en blanc */
 }
 
 .wy-menu-vertical .toctree-l2.current > a {
-    background-color: #0a6635 !important; /* Fond vert pour le sous-menu actif */
-    color: #ffffff !important; /* Texte blanc */
+    background-color: #2c6d2d !important; /* Fond vert pour le sous-menu actif */
+    color: white !important;
+}
+
+/* Ajouter une ombre légère au contenu pour le faire ressortir */
+.wy-nav-content {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour le bloc de contenu */
+    border-radius: 8px; /* Légère bordure arrondie */
+    background-color: #f8f9fa; /* Fond légèrement gris pour le bloc de contenu */
 }
