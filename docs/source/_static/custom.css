@@ -1,6 +1,6 @@
 /* Couleur du header de gauche */
 .wy-side-nav-search {
-    background-color: #2c6d2d; /* Vert foncé */
+    background-color: #28a745; /* Vert foncé */
 }
 
 .wy-side-nav-search .icon {
@@ -19,7 +19,7 @@
 
 /* Améliorer la lisibilité du texte sélectionné dans le menu */
 .wy-menu-vertical .current > a, .wy-menu-vertical a:hover {
-    background-color: #2c6d2d; /* Fond vert pour le texte sélectionné */
+    background-color: #000000; /* 
     color: #ffffff !important; /* Texte blanc */
 }
 
@@ -29,7 +29,7 @@
 }
 
 .wy-menu-vertical li.current > a {
-    background-color: #2c6d2d; /* Fond vert pour l'élément actif */
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -48,7 +48,7 @@
 
 /* Couleur du texte dans la documentation */
 h1, h2, h3, h4, h5, h6 {
-    color: #2c6d2d; /* Titres en vert */
+    color: #000000; /* Titres en vert */
 }
 
 p, li, a {
@@ -57,7 +57,7 @@ p, li, a {
 
 /* Boîte d'alerte */
 .admonition-title {
-    background-color: #2c6d2d; /* Fond vert pour les alertes */
+    background-color: #000000;
     color: white; /* Texte blanc */
 }
 
@@ -87,13 +87,13 @@ p, li, a {
 }
 
 .wy-menu-vertical .toctree-l2.current > a {
-    background-color: #2c6d2d !important; /* Fond vert pour le sous-menu actif */
+    background-color: #000000 !important;
     color: white !important;
 }
 
 /* Ajouter une ombre légère au contenu pour le faire ressortir */
 .wy-nav-content {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour le bloc de contenu */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le bloc de contenu */
     border-radius: 8px; /* Légère bordure arrondie */
     background-color: #f8f9fa; /* Fond légèrement gris pour le bloc de contenu */
 }
