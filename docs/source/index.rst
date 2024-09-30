@@ -1,13 +1,13 @@
 Welcome to Orange County Lettings documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Description du projet
+---------------------
+OC Lettings est une plateforme de gestion de locations immobilières, permettant aux utilisateurs de consulter des listings de biens disponibles à la location ainsi que les profils des utilisateurs. Ce projet inclut trois applications distinctes :
+- **Lettings** : Pour la gestion des lettings.
+- **Profiles** : Pour la gestion des profiles.
+- **oc_lettings_site** : Pour la gestion des settings, et des fichiers de base.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
