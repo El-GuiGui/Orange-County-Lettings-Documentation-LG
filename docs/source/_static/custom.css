@@ -1,3 +1,59 @@
+/* Change the overall background to a light grey */
+html, body {
+    background-color: #f0f0f0; /* Gris clair */
+}
+
+/* Keep the green for the top-left menu area */
 .wy-side-nav-search {
-    background-color: #28a745 !important;
+    background-color: #28a745; /* Vert */
+}
+
+/* Menu background on the left should stay neutral */
+.wy-nav-side {
+    background-color: #343a40 !important; /* Gris foncé pour un look plus pro */
+}
+
+/* Text links (e.g., in the table of contents) */
+.wy-nav-side a {
+    color: #ffffff !important; /* Blanc pour bien contraster */
+}
+
+.wy-nav-side a:hover {
+    color: #28a745 !important; /* Vert sur hover */
+}
+
+/* Headings in the content area */
+h1, h2, h3, h4, h5, h6 {
+    color: #28a745; /* Vert pour les titres */
+}
+
+/* Links in the content area */
+a {
+    color: #28a745 !important; /* Vert pour les liens */
+}
+
+/* Lighten the page background to avoid harsh contrast */
+.document {
+    background-color: #ffffff; /* Blanc pour le contenu */
+    border-radius: 8px; /* Un peu de courbure pour le style */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+/* Customize code blocks or notes */
+.highlight pre, .admonition {
+    background-color: #f8f9fa; /* Fond gris clair pour les zones de note ou de code */
+    padding: 15px;
+    border-left: 5px solid #28a745; /* Ajoute une ligne verte à gauche */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+}
+
+/* Remove the harsh green background on the right */
+.wy-nav-content-wrap {
+    background-color: #f0f0f0; /* Gris clair */
 }
