@@ -15,8 +15,7 @@ OC Lettings est une plateforme de gestion de locations, permettant aux utilisate
 
 .. note::
 
-   Project repository : 
-https://github.com/El-GuiGui/P13-Mettez-a-l-echelle-une-application-Django-en-utilisant-une-architecture-modulaire .
+   Project repository : https://github.com/El-GuiGui/P13-Mettez-a-l-echelle-une-application-Django-en-utilisant-une-architecture-modulaire .
 
 Contents
 --------
