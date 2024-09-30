@@ -1,0 +1,10 @@
+/* Change primary color (blue) to green */
+:root {
+    --color-primary: #28a745; /* Green color */
+    --color-link: #28a745; /* Green color for links */
+}
+
+/* Change hover state for links */
+a:hover {
+    color: #218838; /* Darker green for hover */
+}
