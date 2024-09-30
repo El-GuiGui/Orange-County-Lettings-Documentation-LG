@@ -57,3 +57,47 @@ a {
 .wy-nav-content-wrap {
     background-color: #f0f0f0; /* Gris clair */
 }
+
+
+
+
+/* Center the content and limit the width */
+.document {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Limiter la largeur pour éviter trop d'espace vide */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+/* Adjust the navigation bar width on the left */
+.wy-nav-side {
+    width: 240px; /* Réduire la largeur du menu pour donner plus de place au contenu */
+}
+
+/* The page wrapper should also respect centering */
+.wy-nav-content {
+    margin-left: 260px; /* Ajuste la marge pour donner plus d'espace à gauche */
+    max-width: 1000px; /* Limite la largeur totale pour ne pas avoir un contenu trop large */
+}
+
+/* Footer improvements */
+.footer {
+    text-align: center; /* Centre le texte du pied de page */
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Adjust header height for consistency */
+.wy-side-nav-search {
+    padding: 20px;
+    height: auto; /* Ajuste la hauteur de l'en-tête */
+}
+
+/* Add some padding on the right to avoid too much tightness */
+.wy-nav-content-wrap {
+    padding-right: 20px;
+}
