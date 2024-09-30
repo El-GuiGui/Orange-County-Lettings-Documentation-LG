@@ -29,7 +29,7 @@ Contents
    Technologies et techniques utilisées
    Structure de la base de données
    Url et Guide d'utilisation
-   Automatisation CI/CD via Github Actions
+   Automatisation CI-CD via Github Actions
    Déploiement sur render
    Image du projet sur Docker
    Lancement de l'image docker en local.
