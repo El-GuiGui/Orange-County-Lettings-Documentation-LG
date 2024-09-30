@@ -6,8 +6,8 @@ project = 'Orange County Lettings'
 copyright = '2024, OC-Lettings'
 author = 'ElGuigui'
 
-release = '0.1'
-version = '0.1.0'
+release = '2.0'
+version = '2.0'
 
 # -- General configuration
 
