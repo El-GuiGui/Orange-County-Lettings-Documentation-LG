@@ -1,3 +1,24 @@
-.rst-content a {
-    color: #28a745 !important;
+/* Changer la couleur des titres et des liens */
+.wy-nav-side .current>a, 
+.wy-nav-side a:hover, 
+.wy-nav-top a:hover, 
+.rst-content a, 
+.rst-content a:hover {
+    color: #28a745;  /* Vert pour les liens */
+}
+
+/* Changer la couleur des boutons et de la barre supérieure */
+.wy-side-nav-search,
+.wy-nav-content-wrap,
+.wy-breadcrumbs {
+    background-color: #28a745; /* Vert pour le fond de la barre */
+}
+
+/* Pour les boutons et autres éléments */
+.rst-content .btn,
+.rst-content .btn:hover,
+.rst-content .docutils a,
+.rst-content .docutils a:hover {
+    background-color: #28a745; /* Vert pour les boutons */
+    color: white;
 }
