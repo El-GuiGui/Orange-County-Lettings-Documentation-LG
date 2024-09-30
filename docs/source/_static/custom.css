@@ -1,4 +1,4 @@
-/* Modifier la couleur du header de gauche */
+/* Modifier la couleur du header de gauche avec un vert approprié */
 .wy-side-nav-search {
     background-color: #0a6635; /* Vert pour le header */
 }
@@ -80,4 +80,14 @@ p, li, a {
 /* Modifier la couleur du texte dans le footer */
 .wy-footer p, .wy-footer a {
     color: #ffffff !important; /* Couleur blanche dans le footer */
+}
+
+/* Ajuster la lisibilité du texte dans le menu */
+.wy-menu-vertical .toctree-l2 {
+    color: #ffffff; /* Texte des sous-menus en blanc */
+}
+
+.wy-menu-vertical .toctree-l2.current > a {
+    background-color: #0a6635 !important; /* Fond vert pour le sous-menu actif */
+    color: #ffffff !important; /* Texte blanc */
 }
