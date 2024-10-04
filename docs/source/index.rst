@@ -11,9 +11,9 @@ L'application permet aux utilisateurs de :
 - Visualiser les profils d'utilisateurs
 - Gérer les données via l'interface admin de Django
 
-.. image:: img/home%20page.PNG
+.. image:: img/home page.PNG
 
-.. image:: img/admin%20page%20modif.PNG
+.. image:: img/admin page modif.PNG
 
 Ce projet est divisé en trois applications distinctes :
 
