@@ -3,7 +3,16 @@ Welcome to Orange County Lettings documentation!
 
 Description du projet
 ---------------------
-OC Lettings est une plateforme de gestion de locations, permettant aux utilisateurs de consulter des listings de biens disponibles à la location ainsi que les profils des utilisateurs. Ce projet inclut trois applications distinctes :
+Le projet OC Lettings est une application web axée sur la gestion de propriétés à louer et de profils d'utilisateurs. Il utilise le framework Django et est conçu pour offrir une expérience fluide tant pour les utilisateurs finaux que pour les administrateurs. 
+
+L'application permet aux utilisateurs de :
+
+- Consulter les propriétés à louer
+- Visualiser les profils d'utilisateurs
+- Gérer les données via l'interface admin de Django
+
+
+Ce projet est divisé en trois applications distinctes :
 
 - **Lettings** : Pour la gestion des lettings.
 
@@ -11,7 +20,7 @@ OC Lettings est une plateforme de gestion de locations, permettant aux utilisate
 
 - **oc_lettings_site** : Pour la gestion des settings, et des fichiers de base.
 
-
+L'un des objectifs principaux de ce projet était d'assurer la stabilité et la fiabilité via une couverture de tests complète, un suivi des erreurs avec Sentry et une pipeline CI/CD automatisée avec GitHub Actions, Docker, et Render.
 
 .. note::
 
