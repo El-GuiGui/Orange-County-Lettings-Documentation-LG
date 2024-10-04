@@ -11,6 +11,9 @@ L'application permet aux utilisateurs de :
 - Visualiser les profils d'utilisateurs
 - Gérer les données via l'interface admin de Django
 
+.. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/home%20page.PNG
+
+.. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/admin%20page%20modif.PNG
 
 Ce projet est divisé en trois applications distinctes :
 
@@ -20,14 +23,18 @@ Ce projet est divisé en trois applications distinctes :
 
 - **oc_lettings_site** : Pour la gestion des settings, et des fichiers de base.
 
+
+
+
 L'un des objectifs principaux de ce projet était d'assurer la stabilité et la fiabilité via une couverture de tests complète, un suivi des erreurs avec Sentry et une pipeline CI/CD automatisée avec GitHub Actions, Docker, et Render.
 
 .. note::
 
-   Project repository : https://github.com/El-GuiGui/P13-Mettez-a-l-echelle-une-application-Django-en-utilisant-une-architecture-modulaire .
+   Project repository : https://github.com/El-GuiGui/P13-Mettez-a-l-echelle-une-application-Django-en-utilisant-une-architecture-modulaire
+
+   .. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/repository.PNG
 
 
-.. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/home%20page.PNG
 
 Contents
 --------
