@@ -1,4 +1,4 @@
-Welcome to Orange County Lettings documentation!
+Bienvenue dans la documentation d'Orange County Lettings!
 ===================================
 
 Description du projet
