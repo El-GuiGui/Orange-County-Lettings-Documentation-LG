@@ -32,7 +32,7 @@ L'un des objectifs principaux de ce projet était d'assurer la stabilité et la 
 
    Project repository : https://github.com/El-GuiGui/P13-Mettez-a-l-echelle-une-application-Django-en-utilisant-une-architecture-modulaire
 
-   .. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/repository.PNG
+   .. image:: img/repository.PNG
 
 
 
