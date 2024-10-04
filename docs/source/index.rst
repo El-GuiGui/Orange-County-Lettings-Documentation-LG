@@ -11,9 +11,9 @@ L'application permet aux utilisateurs de :
 - Visualiser les profils d'utilisateurs
 - Gérer les données via l'interface admin de Django
 
-.. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/home%20page.PNG
+.. image:: img/home%20page.PNG
 
-.. image:: https://github.com/El-GuiGui/Orange-County-Lettings-Documentation-LG/blob/main/img/admin%20page%20modif.PNG
+.. image:: img/admin%20page%20modif.PNG
 
 Ce projet est divisé en trois applications distinctes :
 
