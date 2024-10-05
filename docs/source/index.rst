@@ -56,4 +56,5 @@ Contents
    Surveillance des Erreurs avec Sentry
    Linting
    Tests Unitaires
-
+   Amélioration de l'architecture modulaire
+   Réduction des problèmes techniques
