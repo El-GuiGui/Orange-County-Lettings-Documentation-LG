@@ -99,4 +99,3 @@ Une fois que vous avez terminé, vous pouvez désactiver l'environnement virtuel
 
    deactivate
 
-
