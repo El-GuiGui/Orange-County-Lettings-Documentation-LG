@@ -106,6 +106,11 @@ Build et Tests
 
 5. **Vérification Linting** : L'outil `flake8` est utilisé pour vérifier la conformité du code aux standards de Python. Si une erreur de linting survient, l'étape échoue et le pipeline s'arrête.
 
+
+
+   .. image:: img/build-and-test.PNG
+
+
 Conteneurisation via Docker
 .............................
 
@@ -117,12 +122,18 @@ Conteneurisation via Docker
 
 3. **Pousser l'image sur Docker Hub** : Une fois l'image créée, elle est poussée sur Docker Hub à la fois sous les tags `latest` et `github.sha`.
 
+
+   .. image:: img/build-docker.PNG
+
 Déploiement sur Render
 .............................
 
 1. **Déclenchement du déploiement** : L'étape finale consiste à déclencher le déploiement sur **Render** en utilisant l'image Docker récemment construite. Le hook de déploiement (deploy-hook) est appelé avec l'URL de l'image Docker et la clé API de Render.
 
 Si une erreur survient à n'importe quelle étape du pipeline, les étapes suivantes ne seront pas exécutées, garantissant que seules des versions valides de l'application sont déployées en production.
+
+
+   .. image:: img/deploy.PNG
 
 Fonctionnement des Secrets
 --------------------------
