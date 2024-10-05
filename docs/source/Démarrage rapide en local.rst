@@ -1,4 +1,4 @@
-Exécuter le Site Web en Local
+Démarrage rapide en local
 -------------------------------
 Une fois les dépendances installées et les variables d'environnement configurées, vous pouvez lancer le site en local.
 
