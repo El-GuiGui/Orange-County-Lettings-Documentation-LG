@@ -54,6 +54,6 @@ Contents
    Lancement de l'image docker en local.
    Le stockage de clé et mot de passe dans un environnement de production
    Surveillance des Erreurs avec Sentry
-   User Guide
-   Lien
-   other
+   Linting
+   Tests Unitaires
+
