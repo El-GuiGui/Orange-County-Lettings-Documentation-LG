@@ -92,7 +92,9 @@ Le fichier `config.yml` suivant a été mis en place pour orchestrer les différ
 Explication des Étapes
 ----------------------
 
-### Build et Tests
+Build et Tests
+.............................
+
 
 1. **Checkout du code** : Le pipeline commence par récupérer le code source du dépôt GitHub.
 
@@ -104,7 +106,8 @@ Explication des Étapes
 
 5. **Vérification Linting** : L'outil `flake8` est utilisé pour vérifier la conformité du code aux standards de Python. Si une erreur de linting survient, l'étape échoue et le pipeline s'arrête.
 
-### Conteneurisation via Docker
+Conteneurisation via Docker
+.............................
 
 1. **Login à Docker Hub** : Le pipeline se connecte à **Docker Hub** avec les identifiants stockés dans les **secrets** GitHub.
 
@@ -114,7 +117,8 @@ Explication des Étapes
 
 3. **Pousser l'image sur Docker Hub** : Une fois l'image créée, elle est poussée sur Docker Hub à la fois sous les tags `latest` et `github.sha`.
 
-### Déploiement sur Render
+Déploiement sur Render
+.............................
 
 1. **Déclenchement du déploiement** : L'étape finale consiste à déclencher le déploiement sur **Render** en utilisant l'image Docker récemment construite. Le hook de déploiement (deploy-hook) est appelé avec l'URL de l'image Docker et la clé API de Render.
 
