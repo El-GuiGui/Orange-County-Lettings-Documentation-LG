@@ -23,7 +23,8 @@ La page admin :
 - Utilisateur: admin
 - Mot de passe: Abc1234!
 
-8. Gestion des Statics en Local
+-------------------------------
+Gestion des Statics en Local
 -------------------------------
 Si vous rencontrez des problèmes avec les fichiers statiques (CSS, JS, etc.), assurez-vous que `DEBUG` est réglé sur **True** dans le fichier `settings.py`. Cela vous permet d'utiliser les fichiers statiques en mode développement local.
 
