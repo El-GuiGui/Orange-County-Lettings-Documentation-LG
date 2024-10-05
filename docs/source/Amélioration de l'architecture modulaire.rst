@@ -1,4 +1,6 @@
-**Étape 1 : Amélioration de l'architecture modulaire**
+==================================
+**Amélioration de l'architecture modulaire**
+==================================
 
 L'objectif de cette étape est de restructurer l'architecture monolithique existante en une architecture modulaire, en divisant le projet en trois applications Django distinctes : `oc_lettings_site`, `lettings`, et `profiles`. Cette refactorisation a permis d'améliorer la maintenabilité, la flexibilité et l'extensibilité sans modifier les fonctionnalités ni l'apparence du site.
 
