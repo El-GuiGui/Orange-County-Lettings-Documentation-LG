@@ -1,4 +1,4 @@
-Migrations et Association des Tables Existantes  
+Migrations et Association des Tables  
 ====================================
 
 1. Réorganisation des Modèles et Réutilisation des Tables
