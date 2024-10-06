@@ -56,5 +56,6 @@ Contents
    Surveillance des Erreurs avec Sentry
    Linting
    Tests Unitaires
+   Migrations et Association des Tables Existantes
    Amélioration de l'architecture modulaire
    Réduction des problèmes techniques
