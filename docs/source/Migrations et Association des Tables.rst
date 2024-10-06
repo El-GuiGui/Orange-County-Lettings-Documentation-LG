@@ -50,6 +50,7 @@ Application **profiles**
 Les relations définies dans les modèles ont été préservées après les migrations. 
 
 Cela inclut les relations **`OneToOneField`** entre :  
+
 - Un **`Letting`** et un **`Address`** ;  
 - Un **`Profile`** et un **`User`**.
 
@@ -61,21 +62,12 @@ Ces relations ont été intégrées dans les fichiers de migration et sont rest�
 Voici la liste des tables de la base de données après exécution des migrations :
 
 
-```bash  
+   .. image:: img/dbtable.PNG
 
-  sqlite> .tables  
-  auth_group auth_user_groups  
-  auth_group_permissions auth_user_user_permissions  
-  auth_permission django_admin_log  
-  auth_user django_content_type  
-  django_migrations django_session  
-  oc_lettings_site_address oc_lettings_site_letting  
-  oc_lettings_site_profile
 
-```
 
-Justification de l'approche actuelle
-=====================================
+**Justification de l'approche actuelle**
+------------------------
 
 La décision de conserver les tables existantes dans la base de données et de les relier aux nouvelles applications via des migrations adaptées repose sur ces raisons :
 
