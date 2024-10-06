@@ -47,6 +47,7 @@ Contents
    Démarrage rapide en local
    Technologies et techniques utilisées
    Structure de la base de données
+   Migrations et Association des Tables
    Url et Guide d'utilisation
    Automatisation CI-CD via Github Actions
    Déploiement sur render
@@ -56,6 +57,5 @@ Contents
    Surveillance des Erreurs avec Sentry
    Linting
    Tests Unitaires
-   Migrations et Association des Tables
    Amélioration de l'architecture modulaire
    Réduction des problèmes techniques
